@@ -102,5 +102,7 @@ tmux
 
 other
 ---
-* ps ax => list the processes running
-* kill -9 <process id> => kill the process
+* `ps ax` => list the processes running
+* `kill -9 <process id>` => kill the process
+* `df -h` => shows disk usage
+* `du -hs <path/>` => shows human readable summary of how big directory is
