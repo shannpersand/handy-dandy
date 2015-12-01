@@ -8,8 +8,8 @@ bt vim
 ---
 * `y``s``i``w` + `surrounding character` => wraps word in surrounding character of choice
 * `d``s` + `surrounding character` => deletes wrapping character of choice
-* `/` + f + t => fuzzy find
-* \cc => comment out visually selected code
+* `\` + `f` + `t` => fuzzy find
+* `\` + `c` + `c` => comment out visually selected code
 
 Ggrep
 ----
