@@ -98,7 +98,7 @@ tmux
 * `ctrl + a` + `- or  +` => moves tmux split
 * `ctrl` + `shift + a` + d => disconnect
 * `ctrl` + `d` => disconnect and kill
-* tmux kill-session -t sessionname => kill tmux session
+* `tmux kill-session -t sessionname` => kill tmux session
 
 other
 ---
