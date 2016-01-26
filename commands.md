@@ -72,7 +72,7 @@ vim commands
 * `y` => yank
 * `y` + `y` | `shift + y` => yank line, yanks to "0 register automatically
 * `shift + '` + `[1 – 9 or a – z]` + `y/d` => save in register
-* `shift + '` + `shift + [1 – 9 or a – z]` + `y/d` => save in register and append to original
+* `shift + '` + `shift + [a – z]` + `y/d` => save in register and append to original
 * `shift + '` + `_` => blackhole register
 
 ***
