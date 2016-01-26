@@ -18,6 +18,8 @@ nerd tree
 * `s` => opens file in new split
 * `shift` + `a` => resize nerd tree window
 * `x` => closes current directory
+* `ctrl` + `b` => move tree up a big chunk
+* `ctrl` + `f` => move tree down a big chunk
 
 vim commands
 ----
@@ -54,8 +56,8 @@ vim commands
 * `shift + f` => find backwards # [x] character
 * `t` => find til # [x] character, cursor ends up space before 
 * `shift + t` => find backwards # [x]` character, cursor ends up before
-* `ctrl + f` => move page up big chunk
-* `ctrl + b` => move page down big chunk
+* `ctrl + f` => move page up one line
+* `ctrl + b` => move page down one line
 * `shift + [` => move down to next empty return
 * `shift + ]` => move up to next empty return
 
