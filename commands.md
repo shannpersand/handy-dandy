@@ -93,10 +93,10 @@ bt vim
 * `\` + `f` + `f` => fuzzy find
 * `\` + `c` + `c` => comment out visually selected code
 
-tmux
+tmux [leader = `ctrl + a`]
 ----
-* `ctrl`+ a + s => new horizontal split
-* `ctrl` + a + v => new vertical split
+* `ctrl+ a` + `s` => new horizontal split
+* `ctrl + a` + `v` => new vertical split
 * `ctrl + a` + `h`,`j`,`k`,`l` => move around in tmux windows
 * `ctrl + a` + `a` => toggle tabs
 * `ctrl + a` + `c` => create new tab
