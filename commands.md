@@ -53,8 +53,6 @@ vim commands
 * `shift + f` => find backwards # [x] character
 * `t` => find til # [x] character, cursor ends up space before 
 * `shift + t` => find backwards # [x]` character, cursor ends up before
-* `shift + '` + `1 – 9` + `y/d` => save in register
-* `shift + '` + `shift + [a – z]` + `y/d` => save in register and append to original
 * `ctrl + f` => move page up big chunk
 * `ctrl + b` => move page down big chunk
 * `shift + [` => move down to next empty return
@@ -67,6 +65,12 @@ vim commands
 * `q` => stop recording
 * `@` + `a` => excecute macro
 * `@` + `@` => excecute again
+
+***
+
+* `shift + '` + `[1 – 9 or a – z]` + `y/d` => save in register
+* `shift + '` + `shift + [1 – 9 or a – z]` + `y/d` => save in register and append to original
+* `shift + '` + `_` => blackhole register
 
 ***
 
