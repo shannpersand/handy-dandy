@@ -1,38 +1,39 @@
 buffer explorer
 ----
-* `\` + b + e => buffer explorer
-* `\` + b + s => buffer explorer in horizontal split
-* `\` + b + v=> buffer explorer in vertical split
+* `\` + `b` + `e` => buffer explorer
+* `\` + `b` + `s` => buffer explorer in horizontal split
+* `\` + `b` + `v`=> buffer explorer in vertical split
 
 bt vim
 ---
 * `y``s``i``w` + `surrounding character` => wraps word in surrounding character of choice
 * `d``s` + `surrounding character` => deletes wrapping character of choice
-* `\` + `f` + `t` => fuzzy find
+* `\` + `f` + `f` => fuzzy find
 * `\` + `c` + `c` => comment out visually selected code
 
 Ggrep
 ----
-* :Ggrep 'stuff' 
+* :Ggrep 'stuff' **/*.filetype (wildcard within)
 * :cope opens search results in a buffer
 * :cn goes to next result
 * :cp goes to previous result
 
 nerd tree
 ----
-* `\` + n + t => nerd tree
+* `\` + `n` + `t` => opens nerd tree
 * `o` => opens file in previous window
 * `s` => opens file in new split
 * `shift` + `a` => resize nerd tree window
+* `x` => closes current directory
 
 vim commands
 ----
-*  c + i + t => change in tag
-* d + s + t => delete surrounding tags
+* `c` + `i` + `t` => change in tag
+* `d` + `s` + `t` => delete surrounding tags
 * `?``{` + `n or N` => when in class select
-* v + a + t => visually select with tags
-* v + i + t => visually select within tags
-* v + % => class selection
+* `v` + `a` + `t` => visually select with tags
+* `v` + `i` + `t` => visually select within tags
+* `v` + `%` => class selection
 
 ***
 
@@ -82,6 +83,7 @@ vim commands
 * :noh => turn off highlight after /pattern search
 * :s%/foo/bar => replace foo with bar
 * :s%/foo/bar/? => replace foo with bar, but ask
+* :so $MYVIMRC => refresh vimrc
 
 
 tmux
