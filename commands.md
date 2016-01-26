@@ -34,21 +34,22 @@ vim commands
 * `shift + o` => new line above with insert mode
 * `shift + a` => end of line in insert mode
 * `shift + i `=> beginning of line in insert mode
-* `shift + v` => visually highlights entire line
+* `shift + v` => visually highlights entire line (`p` to replace)
 * `d` => delete and copy to clipboard
 * `d` + `d` => delete line, also yanks at the same time to default register
-* `shift + d` => delete to end of line (also `d` + `shift 4`)
+* `shift + d` => delete to end of line (also `d` + `shift 4 [$]`)
 * `p` => puts after cursor
 * `shift + p` => puts before cursor
 * `u` => undo
 * `ctrl` + `r` => redo
-* `w` => beginning of a word moving fowrards or word in combination including trailing space
-* `e` => end of a word moving forwards, not including trailing space
-* `b` => beginning of a word going backwards
+
+***
+
+* `w` => move to beginning of a word moving fowrards or word in combination including trailing space
+* `e` => move to end of a word moving forwards, not including trailing space
+* `b` => move to beginning of a word going backwards
 * `g` + `g` => go to beginning of file
 * `shift + g` => go to end of file or use # selector to choose line
-* `y` => yank
-* `y` + `y` | `shift + y` => yank line, yanks to "0 register automatically
 * `f` => find forward # [x] character
 * `shift + f` => find backwards # [x] character
 * `t` => find til # [x] character, cursor ends up space before 
@@ -68,6 +69,8 @@ vim commands
 
 ***
 
+* `y` => yank
+* `y` + `y` | `shift + y` => yank line, yanks to "0 register automatically
 * `shift + '` + `[1 – 9 or a – z]` + `y/d` => save in register
 * `shift + '` + `shift + [1 – 9 or a – z]` + `y/d` => save in register and append to original
 * `shift + '` + `_` => blackhole register
