@@ -62,11 +62,11 @@ vim commands
 
 ***
 
-*`.` => repeats last thing, not including movements
-*`q` + `a [letter for accessing macro]` => starts recording macro to `a` or whatever letter
-*`q` => stop recording
-*`@` + `a` => excecute macro
-*`@` + `@` => excecute again
+* `.` => repeats last thing, not including movements
+* `q` + `a [letter for accessing macro]` => starts recording macro to `a` or whatever letter
+* `q` => stop recording
+* `@` + `a` => excecute macro
+* `@` + `@` => excecute again
 
 ***
 
