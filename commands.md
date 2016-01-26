@@ -61,6 +61,7 @@ vim commands
 * `shift + ]` => move up to next empty return
 
 ***
+
 *`.` => repeats last thing, not including movements
 *`q` + `a [letter for accessing macro]` => starts recording macro to `a` or whatever letter
 *`q` => stop recording
