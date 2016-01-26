@@ -61,6 +61,13 @@ vim commands
 * `shift + ]` => move up to next empty return
 
 ***
+*`.` => repeats last thing, not including movements
+*`q` + `a [letter for accessing macro]` => starts recording macro to `a` or whatever letter
+*`q` => stop recording
+*`@` + `a` => excecute macro
+*`@` + `@` => excecute again
+
+***
 
 * `ctrl + w` + w => move windows in vim
 * `ctrl + w` + v => new vertical vim window split
