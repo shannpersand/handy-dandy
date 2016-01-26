@@ -4,13 +4,6 @@ buffer explorer
 * `\` + `b` + `s` => buffer explorer in horizontal split
 * `\` + `b` + `v`=> buffer explorer in vertical split
 
-bt vim
----
-* `y``s``i``w` + `surrounding character` => wraps word in surrounding character of choice
-* `d``s` + `surrounding character` => deletes wrapping character of choice
-* `\` + `f` + `f` => fuzzy find
-* `\` + `c` + `c` => comment out visually selected code
-
 Ggrep
 ----
 * :Ggrep 'stuff' **/*.filetype (wildcard within)
@@ -85,6 +78,12 @@ vim commands
 * :s%/foo/bar/? => replace foo with bar, but ask
 * :so $MYVIMRC => refresh vimrc
 
+bt vim
+---
+* `y``s``i``w` + `surrounding character` => wraps word in surrounding character of choice
+* `d``s` + `surrounding character` => deletes wrapping character of choice
+* `\` + `f` + `f` => fuzzy find
+* `\` + `c` + `c` => comment out visually selected code
 
 tmux
 ----
