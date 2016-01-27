@@ -23,20 +23,26 @@ nerd tree
 
 vim commands
 ----
-* `c` + `i` + `t` => change in tag
-* `d` + `s` + `t` => delete surrounding tags
-* `?``{` + `n or N` => when in class select
-* `v` + `a` + `t` => visually select with tags
-* `v` + `i` + `t` => visually select within tags
-* `v` + `%` => class selection
+`h`,`j`,`k`,`l`=> moving
+`any number` + `hjkl` => moves you that number
 
 ***
 
 * `o` => new line below with insert mode
 * `shift + o` => new line above with insert mode
+* `a` => insert after cursor
 * `shift + a` => end of line in insert mode
+* `i` => regular insert
 * `shift + i `=> beginning of line in insert mode
+* `v` => enter visual mode
+* `ctrl` + `v` => visual block mode
 * `shift + v` => visually highlights entire line (`p` to replace)
+* `c` => change
+* `shift` + `c` => change to end of line
+* `r` => replace character under cursor w/out insert mode
+* `s` => delete and enter insert mode
+* `~` => change case of character under cursor (like why would you do this that much, but actually I have used it)
+* `x` => delete character under cursor
 * `d` => delete and copy to clipboard
 * `d` + `d` => delete line, also yanks at the same time to default register
 * `shift + d` => delete to end of line (also `d` + `shift 4 [$]`)
@@ -51,7 +57,7 @@ vim commands
 * `e` => move to end of a word moving forwards, not including trailing space
 * `b` => move to beginning of a word going backwards
 * `g` + `g` => go to beginning of file
-* `shift + g` => go to end of file or use # selector to choose line
+* `shift + g` => go to end of file or use `x number` selector to choose line
 * `f` => find forward # [x] character
 * `shift + f` => find backwards # [x] character
 * `t` => find til # [x] character, cursor ends up space before 
@@ -63,11 +69,21 @@ vim commands
 
 ***
 
+* `c` + `i` + `t` => change in tag
+* `d` + `s` + `t` => delete surrounding tags
+* `?``{` + `n or N` => when in class select
+* `v` + `a` + `t` => visually select with tags
+* `v` + `i` + `t` => visually select within tags
+* `v` + `%` => class selection
+
+***
+
 * `.` => repeats last thing, not including movements
 * `q` + `a [letter for accessing macro]` => starts recording macro to `a` or whatever letter
 * `q` => stop recording
 * `@` + `a` => excecute macro
 * `@` + `@` => excecute again
+* `any number` + `o` => allows you to type a new line and once escaping copies line by `x number`
 
 ***
 
