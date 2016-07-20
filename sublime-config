@@ -1,0 +1,38 @@
+{
+	"auto_capitalize": false,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_delay": 200,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"create_window_at_startup": false,
+	"draw_indent_guides": true,
+	"draw_white_space": "none",
+	"fade_fold_buttons": false,
+	"findreplace_small": true,
+	"font_face": "InputSans-Thin",
+	"font_size": 13.5,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Material Theme - Appbar",
+		"Material Theme - White Panels",
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"material_theme_accent_pink": true,
+	"material_theme_bold_tab": true,
+	"material_theme_panel_separator": true,
+	"material_theme_tree_headings": true,
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"tab_completion": false,
+	"tab_size": 2,
+	"tabs_small": true,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
+	"word_wrap": false
+}
