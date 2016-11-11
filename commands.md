@@ -107,8 +107,8 @@ vim commands
 * :set paste => stop crazy pasting (turns indentation off)
 * :set nopaste => turns indentation on again
 * :noh => turn off highlight after /pattern search
-* :s%/foo/bar => replace foo with bar
-* :s%/foo/bar/? => replace foo with bar, but ask
+* :%s/foo/bar => replace foo with bar on the page you're on
+* :%s/foo/bar/? => replace foo with bar, on the page you're on, but ask
 * :so $MYVIMRC => refresh vimrc
 
 bt vim
