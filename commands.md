@@ -137,6 +137,12 @@ tmux [leader = `ctrl + a`]
 other
 ---
 * `ps ax` => list the processes running
+* `lsof -i <port>` => list ports in use
 * `kill -9 <process id>` => kill the process
 * `df -h` => shows disk usage
 * `du -hs <path/>` => shows human readable summary of how big directory is
+
+node troubleshooting
+---
+* `rm -rf node_modules` => remove junk
+* `npm cache cleane` => remove junk
